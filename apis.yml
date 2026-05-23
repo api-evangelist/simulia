@@ -1,0 +1,140 @@
+aid: simulia
+url: https://raw.githubusercontent.com/api-evangelist/simulia/refs/heads/main/apis.yml
+name: SIMULIA (Dassault Systemes)
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Simulation
+  - FEA
+  - CFD
+  - Electromagnetics
+  - Optimization
+  - Engineering
+  - Dassault Systemes
+  - 3DEXPERIENCE
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+description: >-
+  SIMULIA is Dassault Systemes' multidisciplinary simulation portfolio for
+  evaluating product performance, reliability, and safety before physical
+  prototyping. The product family includes Abaqus (nonlinear FEA), CST
+  Studio Suite (electromagnetics), Isight (process automation and design
+  optimization), fe-safe (durability), Tosca (topology and shape
+  optimization), and additional structural, CFD, multibody, and
+  vibro-acoustics solvers, integrated on the 3DEXPERIENCE platform.
+  Programmatic access is delivered through scripting interfaces (Python
+  for Abaqus, Visual Basic / macros for CST, Java/JavaScript for Isight)
+  rather than a public web API.
+apis:
+  - aid: simulia:abaqus
+    name: SIMULIA Abaqus
+    description: >-
+      Industry-standard finite element analysis suite covering Abaqus/Standard,
+      Abaqus/Explicit, Abaqus/CAE, Abaqus Multiphysics, CAD Associative
+      Interface, Composites Modeler, and Czone. Automation and integration
+      are driven through the Abaqus Python scripting interface plus user
+      subroutines (Fortran/C++).
+    humanURL: https://www.3ds.com/products-services/simulia/products/abaqus/
+    baseURL: https://www.3ds.com/products-services/simulia/products/abaqus/
+    tags:
+      - FEA
+      - Nonlinear
+      - Python Scripting
+      - Multiphysics
+    properties:
+      - type: ProductPage
+        url: https://www.3ds.com/products-services/simulia/products/abaqus/
+      - type: ScriptingReference
+        url: https://help.3ds.com/HelpProductsDS.aspx
+        title: Abaqus Python Scripting Reference
+  - aid: simulia:cst-studio-suite
+    name: SIMULIA CST Studio Suite
+    description: >-
+      3D electromagnetic analysis software for antenna and filter design,
+      EMC/EMI, bioelectromagnetics, electrical machines, and high-power
+      thermal effects. Combines FIT, FEM, and integral-equation solvers
+      with hybrid simulation and 3DEXPERIENCE co-design. Automation via
+      macros and the CST scripting interface.
+    humanURL: https://www.3ds.com/products-services/simulia/products/cst-studio-suite/
+    baseURL: https://www.3ds.com/products-services/simulia/products/cst-studio-suite/
+    tags:
+      - Electromagnetics
+      - Antennas
+      - EMC
+      - Multi-Solver
+    properties:
+      - type: ProductPage
+        url: https://www.3ds.com/products-services/simulia/products/cst-studio-suite/
+      - type: LearningEdition
+        url: https://www.3ds.com/products-services/simulia/products/cst-studio-suite/
+        title: CST Studio Suite Learning Edition (free for students)
+  - aid: simulia:isight
+    name: SIMULIA Isight
+    description: >-
+      Process automation and design optimization framework that chains
+      simulation tools into workflows and runs Design of Experiments,
+      optimization, and Six Sigma studies across SIMULIA and third-party
+      solvers.
+    humanURL: https://www.3ds.com/products-services/simulia/products/isight-simulia-execution-engine/
+    baseURL: https://www.3ds.com/products-services/simulia/products/isight-simulia-execution-engine/
+    tags:
+      - Optimization
+      - DoE
+      - Automation
+      - Workflow
+    properties:
+      - type: ProductPage
+        url: https://www.3ds.com/products-services/simulia/products/isight-simulia-execution-engine/
+  - aid: simulia:fe-safe
+    name: SIMULIA fe-safe
+    description: >-
+      Durability and fatigue analysis software for advanced multi-axial
+      strain-based fatigue, integrated with Abaqus and other FEA solvers
+      for life prediction of metals, composites, and elastomers.
+    humanURL: https://www.3ds.com/products-services/simulia/products/fe-safe/
+    baseURL: https://www.3ds.com/products-services/simulia/products/fe-safe/
+    tags:
+      - Durability
+      - Fatigue
+      - Life Prediction
+    properties:
+      - type: ProductPage
+        url: https://www.3ds.com/products-services/simulia/products/fe-safe/
+  - aid: simulia:tosca
+    name: SIMULIA Tosca
+    description: >-
+      Topology, shape, sizing, and bead optimization for structural and
+      flow problems, layered on top of Abaqus and other commercial
+      solvers.
+    humanURL: https://www.3ds.com/products-services/simulia/products/tosca/
+    baseURL: https://www.3ds.com/products-services/simulia/products/tosca/
+    tags:
+      - Topology Optimization
+      - Shape Optimization
+      - Lightweighting
+    properties:
+      - type: ProductPage
+        url: https://www.3ds.com/products-services/simulia/products/tosca/
+common:
+  - type: Website
+    url: https://www.3ds.com/products-services/simulia/
+  - type: Parent
+    url: https://www.3ds.com/
+    title: Dassault Systemes (parent company)
+  - type: Community
+    url: https://community.3ds.com/
+    title: 3DEXPERIENCE / SIMULIA user communities
+  - type: Documentation
+    url: https://help.3ds.com/HelpProductsDS.aspx
+  - type: Training
+    url: https://www.3ds.com/products-services/simulia/training/
+  - type: Support
+    url: https://www.3ds.com/support/
+  - type: Events
+    url: https://www.3ds.com/events/
+  - type: ChampionsProgram
+    url: https://www.3ds.com/products-services/simulia/champions/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
