@@ -117,6 +117,10 @@ apis:
       - type: ProductPage
         url: https://www.3ds.com/products-services/simulia/products/tosca/
 common:
+  - type: TrustCenter
+    url: security/simulia-trust-center.yml
+  - type: DomainSecurity
+    url: security/simulia-domain-security.yml
   - type: Website
     url: https://www.3ds.com/products-services/simulia/
   - type: Parent
