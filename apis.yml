@@ -92,6 +92,11 @@ apis:
     baseURL: https://www.3ds.com/products-services/simulia/products/isight-simulia-execution-engine/
     tags:
       - Optimization
+      - DOE
+      - Automation
+      - Workflows
+    tags_raw:
+      - Optimization
       - DoE
       - Automation
       - Workflow
