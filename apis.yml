@@ -145,6 +145,12 @@ apis:
       - type: ProductPage
         url: https://www.3ds.com/products-services/simulia/products/tosca/
 common:
+  - type: Plans
+    url: plans/simulia-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/simulia-rate-limits.yml
+  - type: FinOps
+    url: finops/simulia-finops.yml
   - url: https://blog.3ds.com/brands/simulia/
     type: Blog
   - url: https://blog.3ds.com/feed.xml
