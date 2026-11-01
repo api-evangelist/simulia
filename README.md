@@ -1,4 +1,4 @@
-# simulia
+# SIMULIA (Dassault Systemes)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SIMULIA (Dassault) — Abaqus + CST Studio + Isight simulation
+SIMULIA is Dassault Systemes' multidisciplinary simulation portfolio for evaluating product performance, reliability, and safety before physical prototyping. The product family includes Abaqus (nonlinear FEA), CST Studio Suite (electromagnetics), Isight (process automation and design optimization), fe-safe (durability), Tosca (topology and shape optimization), and additional structural, CFD, multibody, and vibro-acoustics solvers, integrated on the 3DEXPERIENCE platform. Programmatic access is delivered through scripting interfaces (Python for Abaqus, Visual Basic / macros for CST, Java/JavaScript for Isight) rather than a public web API.
+
+**Areas:** Simulation · FEA · CFD · Electromagnetics · Optimization · Engineering · Dassault Systemes · 3DEXPERIENCE
+
+## SIMULIA (Dassault Systemes) on APIs.io
+
+Everything profiled for SIMULIA (Dassault Systemes) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/simulia/](https://apis.io/providers/simulia/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [SIMULIA Abaqus](https://apis.io/apis/simulia/abaqus/) — Industry-standard finite element analysis suite covering Abaqus/Standard, Abaqus/Explicit, Abaqus/CAE, Abaqus Multiphysics, CAD Associative Interface,…
+- [SIMULIA CST Studio Suite](https://apis.io/apis/simulia/cst-studio-suite/) — 3D electromagnetic analysis software for antenna and filter design, EMC/EMI, bioelectromagnetics, electrical machines, and high-power thermal effects.…
+- [SIMULIA Isight](https://apis.io/apis/simulia/isight/) — Process automation and design optimization framework that chains simulation tools into workflows and runs Design of Experiments, optimization, and Six Sigma…
+- [SIMULIA fe-safe](https://apis.io/apis/simulia/fe-safe/) — Durability and fatigue analysis software for advanced multi-axial strain-based fatigue, integrated with Abaqus and other FEA solvers for life prediction of…
+- [SIMULIA Tosca](https://apis.io/apis/simulia/tosca/) — Topology, shape, sizing, and bead optimization for structural and flow problems, layered on top of Abaqus and other commercial solvers.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Simulia Domain Security](https://apis.io/security/simulia/simulia-domain-security/)
+- [Simulia Trust Center](https://apis.io/security/simulia/simulia-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Simulia Plans Pricing](https://apis.io/plans/simulia/simulia-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Simulia Rate Limits](https://apis.io/rate-limits/simulia/simulia-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Simulia Finops](https://apis.io/finops/simulia/simulia-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.3ds.com/products-services/simulia/)
+- [Documentation](https://help.3ds.com/HelpProductsDS.aspx)
+- [Support](https://www.3ds.com/support/)
+- [Blog](https://blog.3ds.com/brands/simulia/)
+
+## API Evangelist rating
+
+**Kin Score 10.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 13.2 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/simulia/](https://apis.io/providers/simulia/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SIMULIA (Dassault Systemes): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/simulia/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
